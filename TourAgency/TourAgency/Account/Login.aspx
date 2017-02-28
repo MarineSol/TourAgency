@@ -9,7 +9,7 @@
         <div class="col-md-8">
             <section id="loginForm">
                 <div class="form-horizontal">
-                    <h4>Используйте для входа локальную учетную запись.</h4>
+                  
                     <hr />
                     <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">
                         <p class="text-danger">
@@ -17,7 +17,7 @@
                         </p>
                     </asp:PlaceHolder>
                     <div class="form-group">
-                        <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">Адрес электронной почты</asp:Label>
+                        <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">Логин</asp:Label>
                         <div class="col-md-10">
                             <asp:TextBox runat="server" ID="Email" CssClass="form-control" TextMode="Email" />
                             <asp:RequiredFieldValidator runat="server" ControlToValidate="Email"
